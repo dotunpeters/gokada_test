@@ -36,3 +36,94 @@
     transform: rotate(360deg);
   }
 }
+
+.hide{
+  display: none;
+}
+
+.addressbar {
+  padding: 10px 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.addressbar > h5{
+  line-height: 0;
+  margin: 15px;
+}
+
+.addressbar > p{
+  position: absolute;
+  cursor: pointer;
+  float: left;
+  line-height: 0;
+  margin: 15px;
+}
+
+.addressbar > p > span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.inputform {
+  position: static;
+  display: block;
+  padding: 12px 8px;
+  border: 5px solid white;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 90%;
+  margin: auto;
+  margin-top: 0;
+
+}
+
+.inputform:focus{
+  outline: none;
+}
+
+.map {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.infobox {
+  margin-top: 398px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.infobox .button {
+  clear: both;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 40px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #00e699;
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;  
+}
